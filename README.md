@@ -109,13 +109,11 @@ This project was created to practice:
 
 ##  Preview
 
-Add a screenshot of your project here:
-
 ```md
-![Todo List Preview](./screenshot.png)
+![Todo List Preview](./image.png)
 ```
 
-## 👩 Author
+##  Author
 
 **Ghofran Mohamed**
 
