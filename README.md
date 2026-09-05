@@ -109,9 +109,7 @@ This project was created to practice:
 
 ##  Preview
 
-```md
 ![Todo List Preview](./image.png)
-```
 
 ##  Author
 
