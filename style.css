@@ -1,0 +1,90 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #0A2138;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 50px auto;
+    padding: 10px;
+    background-color: #003;
+    border-radius: 15px;
+    width: 70vw;
+}
+
+.dataInput {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #00233d88;
+    border-radius: 10px;
+}
+
+input, button {
+    background-color: #032C7D;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 2px 2px 15px #D35F18;
+    font-size: large;
+}
+input {
+    padding: 10px;
+    width: 40vw;
+}
+
+input:focus {
+    outline: #D35F18;
+    border: 2px solid #D35F18;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px;
+    width: 10vw;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 50px;
+    background-color: #00233d88;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.parentDiv {
+    display: flex;
+    justify-content: space-between;
+    background-color: #032C7D;
+    color: white;
+    box-shadow: 2px 2px 15px #D35F18;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 15px;
+    font-size: large;
+}
+
+.nestedDiv {
+    display: flex;
+    gap: 20px;
+}
+
+.nestedDiv button {
+    width: fit-content;
+    font-size: medium;
+}
+
+@media (max-width: 440px) {
+    .dataInput {
+        gap: 20px;
+    }
+    input, button {
+        font-size: small;
+    }
+}
