@@ -30,7 +30,7 @@ input, button {
     color: white;
     font-weight: bold;
     box-shadow: 2px 2px 15px #D35F18;
-    font-size: large;
+    font-size: medium;
 }
 input {
     padding: 10px;
@@ -73,18 +73,38 @@ button {
 .nestedDiv {
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
 .nestedDiv button {
     width: fit-content;
+    height: fit-content;
     font-size: medium;
 }
 
 @media (max-width: 576px) {
     .dataInput {
         gap: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     input, button {
         font-size: small;
+    }
+    button {
+        width: fit-content;
+    }
+    .parentDiv {
+        font-size: small;
+    }
+    .nestedDiv {
+        gap: 10px;
+        align-items: center;
+    }
+    .nestedDiv button {
+        font-size: small;
+        width: fit-content;
+        height: fit-content;
     }
 }
