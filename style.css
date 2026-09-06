@@ -80,7 +80,7 @@ button {
     font-size: medium;
 }
 
-@media (max-width: 440px) {
+@media (max-width: 576px) {
     .dataInput {
         gap: 20px;
     }
